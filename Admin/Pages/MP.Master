@@ -10,7 +10,7 @@
     </title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
 </head>
 <body>
     <form id="form1" runat="server">
@@ -67,7 +67,7 @@
                         <div class="navbar-item" runat="server" id="divbuttons">
                             <div class="buttons">
                                <asp:Button text="Registrarse" runat="server" CssClass="button is-primary" OnClick="Unnamed_Click"/>
-                               <asp:Button text="Iniciar sesión" runat="server" CssClass="button is-light" OnClick="Unnamed_Click1"/>
+                               <asp:Button text="Iniciar Sesión" runat="server" CssClass="button is-light" OnClick="Unnamed_Click1"/>
                             </div>
                         </div>
 
@@ -84,7 +84,7 @@
     <footer class="footer">
         <div class="content has-text-centered">
             <p>
-                <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>
+                <strong>Bulma</strong> by <a href="">Sergio Grimaldo</a>
             </p>
         </div>
     </footer>
